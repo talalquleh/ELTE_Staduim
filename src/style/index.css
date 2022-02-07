@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+:root {
+  --backGroundColor: #2f303a;
+  --btnHeight: 54px;
+  --btnWidth: 148px;
+  --radius: 10px;
+  --divColor: #242429;
+  --btnColor: #2d39a3;
+  --infoColor: #4a2e2e;
+}
+div {
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+}
+body {
+  background-color:var(--backGroundColor);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.btnsClass {
+  cursor: pointer;
+  height: var(--btnHeight);
+  width: var(--btnWidth);
+  text-align: center;
+  border-radius: var(--radius);
+  background-color: var(--btnColor);
+  font-weight: 200;
+  border: none !important;
+}
+.btnsClass:hover {
+  background-color: #f8ee5d;
+  color: black;
+  
+  transition: all 0.3s linear;
+}
+a:hover{
+  background-color: #f8ee5d;
+  color: black;
+}
+#menuBar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--divColor);
+  margin-bottom: 40px;
+}
+
+#intro {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#playerNdBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sepratorDiv {
+  border-radius: var(--radius);
+  background-color: var(--btnColor);
+  font-weight: 200;
+  border: none !important;
+  height: 54px;
+  /* width: 148px; */
+  padding: 17px;
+}
+
+#stadiumIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}
+#websiteIntro {
+  padding: 50px;
+}
+#btnsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#commentsDiv {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+#recentMatches,
+#allMatches,
+#teamMatches,#teamList {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: min-content;
+
+  grid-gap: 40px;
+  padding: 30px;
+}
+.recentClass {
+  /* width: 360px;
+  height: 100px; */
+  width: 60%;
+height: 100%;
+  background-color: var(--infoColor);
+  border-radius: 10px;
+}
+#teamsList {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px;
+  grid-template-rows: min-content;
+  grid-gap: 30px;
+}
+.teamClass {
+  height: 100px;
+  width: 100px;
+  background-color: var(--infoColor);
+  border-radius: 50%;
+  padding: 25px;
+}
+#contactUs {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.losingBorder {
+  border: #cc0a0a 3px solid;
+}
+.drawBorder {
+  border: #e5e948 3px solid;
+}
+.winningBorder {
+  border: #10c317 3px solid;
+}
+#teamMatches div {
+  background-color: #242429;
+}
+#commentsDiv div {
+  background-color: #242429;
+}
+#urCommentDiv {
+  background-color: #2f303a;
+  border: var(--btnColor) 3px solid;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#loginSec,
+#registSec,
+#modifyFormSec {
+  height: 100%;
+  padding: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loginFrom,
+#registFrom,
+#modifyForm {
+
+  /* padding: 40px; */
+  height: 100%;
+  width: 50vw;
+  background-color: var(--divColor);
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+  gap: 20px;
+  /* gap:40px; */
+}
+#loginFrom form,
+#registFrom form,
+#modifyForm form{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+#loginFrom form div,
+#registFrom form div,
+#modifyForm form div {
+  padding:20px;
+  margin: 20px;
+
+ 
+}
+/* #registFrom {
+  height: 90vh;
+} */
+#loginFrom input,
+#registFrom input,
+#modifyForm input {
+  /* color:black; */
+  border-radius: var(--radius);
+  background-color: var(--divColor);
+  border: var(--btnColor) 3px solid;
+  font-size: larger;
+  /* width: 100%; */
+  width: 30vw;
+  height: 70px;
+  
+}
+#commentsDiv div {
+  width: 50vw;
+  text-align: left;
+}
+.errors {
+  color: rgb(173, 23, 23);
+}
+.success {
+  color: rgb(15, 134, 25);
+}
+hr {
+  border: 4px solid var(--divColor);
+  border-radius: 5px;
+}
+
+.recentMatchesAjx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+@media only screen and (max-width: 768px){
+  
+  #playerNdBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#playerPhoto{
+  width: 170%;
+}
+}

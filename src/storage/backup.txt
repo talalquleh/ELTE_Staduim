@@ -1,0 +1,187 @@
+
+//users.json
+"61ccccee35256": {
+    "username": "t",
+    "password": "$2y$10$cI3lult3.uYpnnbibtcWb.tGLr84OqkXaHg7gKPHwHvq5tU7IaXji",
+    "email": "t@gmail.com",
+    "roles": [
+        "user"
+    ],
+    "id": "61ccccee35256"
+},
+"admin": {
+    "username": "admin",
+    "password": "$2y$10$X\/H5s4MEUoCR3fgJusys1ehQrzFYCGQy4cMti1OQhZygbV50pXeKS",
+    "email": "admin@eltestadium.hu",
+    "roles": [
+        "user"
+    ],
+    "id": "admin"
+},
+"61ce7dba8f951": {
+    "username": "b",
+    "password": "$2y$10$ihWwDRoB0LZ.21DFr.FoC.fK154kI1Jvsp7Q9e361YczUDn6x.W0W",
+    "email": "b@gmail.com",
+    "roles": [
+        "user"
+    ],
+    "id": "61ce7dba8f951"
+}
+
+//comments.json
+{
+    "commentid3": {
+        "author": "userid4",
+        "text": "The last match was very good!",
+        "teamid": "teamid3"
+    },
+    "commentid4": {
+        "author": "userid1",
+        "text": "team2 less go!",
+        "teamid": "teamid2"
+    },
+    "commentid5": {
+        "author": "userid1",
+        "text": "team3 love!",
+        "teamid": "teamid3"
+    },
+    "61ce7e1a49a0f": {
+        "author": "admin",
+        "text": "i am admin guys, come on",
+        "teamid": "teamid1",
+        "id": "61ce7e1a49a0f"
+    },
+    "61cfbd7be71f4": {
+        "author": "t",
+        "text": "yes sir",
+        "teamid": "teamid1",
+        "id": "61cfbd7be71f4"
+    }
+}
+//matches.json
+{
+    "matchid1": {
+        "id": "matchid1",
+        "home": {
+            "id": "teamid1",
+            "score": 2
+        },
+        "away": {
+            "id": "teamid2",
+            "score": 1
+        },
+        "date": "2021-11-11"
+    },
+    "matchid2": {
+        "id": "matchid2",
+        "home": {
+            "id": "teamid3",
+            "score": 1
+        },
+        "away": {
+            "id": "teamid4",
+            "score": 3
+        },
+        "date": "2021-11-12"
+    },
+    "matchid3": {
+        "id": "matchid3",
+        "home": {
+            "id": "teamid1",
+            "score": 2
+        },
+        "away": {
+            "id": "teamid3",
+            "score": 3
+        },
+        "date": "2021-11-13"
+    },
+    "matchid4": {
+        "id": "matchid4",
+        "home": {
+            "id": "teamid2",
+            "score": "5"
+        },
+        "away": {
+            "id": "teamid2",
+            "score": "3"
+        },
+        "date": "2021-11-26"
+    },
+    "matchid5": {
+        "id": "matchid5",
+        "home": {
+            "id": "teamid1",
+            "score": "5"
+        },
+        "away": {
+            "id": "teamid4",
+            "score": "1"
+        },
+        "date": "2021-11-11"
+    },
+    "matchid6": {
+        "id": "matchid6",
+        "home": {
+            "id": "teamid4",
+            "score": 2
+        },
+        "away": {
+            "id": "teamid4",
+            "score": 1
+        },
+        "date": "2021-11-16"
+    },
+    "matchid7": {
+        "id": "matchid7",
+        "home": {
+            "id": "teamid1",
+            "score": "4"
+        },
+        "away": {
+            "id": "teamid4",
+            "score": "2"
+        },
+        "date": "2021-12-31"
+    },
+    "matchid8": {
+        "id": "matchid8",
+        "home": {
+            "id": "teamid1",
+            "score": "4"
+        },
+        "away": {
+            "id": "teamid4",
+            "score": "2"
+        },
+        "date": "2022-01-01"
+    }   
+}
+//teams.json
+{
+    "teamid1": {
+        "id": "teamid1",
+        "name": "Team #1",
+        "city": "City #1"
+    },
+    "teamid2": {
+        "id": "teamid2",
+        "name": "Team #2",
+        "city": "City #2"
+    },
+    "teamid3": {
+        "id": "teamid3",
+        "name": "Team #3",
+        "city": "City #3"
+    },
+    "teamid4": {
+        "id": "teamid4",
+        "name": "Team #4",
+        "city": "City #4"
+    },
+    "teamid5": {
+        "id": "teamid5",
+        "name": "Team #5",
+        "city": "City #5"
+    }
+}

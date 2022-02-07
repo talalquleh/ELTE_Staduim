@@ -1,0 +1,27 @@
+{
+    "teamid1": {
+        "id": "teamid1",
+        "name": "Team #1",
+        "city": "City #1"
+    },
+    "teamid2": {
+        "id": "teamid2",
+        "name": "Team #2",
+        "city": "City #2"
+    },
+    "teamid3": {
+        "id": "teamid3",
+        "name": "Team #3",
+        "city": "City #3"
+    },
+    "teamid4": {
+        "id": "teamid4",
+        "name": "Team #4",
+        "city": "City #4"
+    },
+    "teamid5": {
+        "id": "teamid5",
+        "name": "Team #5",
+        "city": "City #5"
+    }
+}
